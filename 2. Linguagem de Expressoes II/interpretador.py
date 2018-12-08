@@ -40,5 +40,5 @@ for construcao in programa:
         imprimir.interpretar()
 
     if construcao[1] == "if":
-        inicio = 
+        inicio =
 
