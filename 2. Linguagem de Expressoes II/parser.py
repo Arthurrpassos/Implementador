@@ -9,7 +9,7 @@ construcoes = [
     (['VAR', 'IGUAL', 'VAR', 'OPERADOR', 'DIGITO', 'SEPARADOR'], 'Atr'),
     (['VAR', 'IGUAL', 'DIGITO', 'OPERADOR', 'VAR', 'SEPARADOR'], 'Atr'),
     (['IMPRIMIR', 'ABRIR', 'VAR', 'FECHAR', 'SEPARADOR'], 'Imprimir')
-    (['IF', 'ABRIR', 'VAR', 'IGUAL', 'IGUAL', 'VAR', 'FECHAR'], 'If')
+    (['IF', 'ABRIR', 'VAR', 'IGUAL', 'IGUAL', 'VAR', 'FECHAR', 'VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'If')
 ]
 
 def consumirTokens(tokens, pos):
