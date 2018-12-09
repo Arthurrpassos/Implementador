@@ -54,6 +54,10 @@ class Imprimir (Construcao):
 
 class If (Construcao):
     def __init__(self, var1, var2, var3, var4):
+        self.var1
+        self.var2
+        self.var3
+        self.var4
         if var1 == var2
            var3 = var4
            return Imprimir
