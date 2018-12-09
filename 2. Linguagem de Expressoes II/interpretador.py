@@ -39,6 +39,6 @@ for construcao in programa:
         )
         imprimir.interpretar()
 
-    if construcao[1] == "If":
+    if construcao[1] == "Se":
         inicio = int(construcao[0].split('-')[0])
         atrSimples = AtrSimples(tokens[inicio][0], tokens[inicio + 2][0], tokens[inicio + 3][0], tokens[inicio + 4][0])
