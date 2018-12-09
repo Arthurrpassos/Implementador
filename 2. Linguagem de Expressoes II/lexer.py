@@ -12,7 +12,7 @@ tokens_da_linguagem = [
     (r'[;]', 'SEPARADOR'),
     (r'[(]', 'ABRIR'),
     (r'[)]', 'FECHAR'),
-    (r'[i][f]', 'SE')
+    (r'[s][e]', 'SE')
 ]
 
 def analise_lexica(programa, tokens_da_linguagem):
