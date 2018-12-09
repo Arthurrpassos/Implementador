@@ -28,8 +28,8 @@ for construcao in programa:
         atr = Atr(
             tokens[inicio][0],
             tokens[inicio + 2][0],
-            tokens[inicio + 4][0],
-            tokens[inicio + 3][0]
+            tokens[inicio + 3][0],
+            tokens[inicio + 4][0]
         )
         atr.interpretar()
     if construcao[1] == 'Imprimir':
