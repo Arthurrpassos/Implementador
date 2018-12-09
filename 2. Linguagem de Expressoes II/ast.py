@@ -52,7 +52,7 @@ class Imprimir (Construcao):
     def interpretar(self):
         print(tabela.get(self.var))
 
-class If (Construcao):
+class Se (Construcao):
     def __init__(self, var1, var2, var3, var4):
         self.var1
         self.var2
