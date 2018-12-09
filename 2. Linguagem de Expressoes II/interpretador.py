@@ -42,3 +42,4 @@ for construcao in programa:
     if construcao[1] == "if":
         inicio =
 
+        atrSimples = AtrSimples(tokens[inicio][0], tokens[inicio + 2][0], tokens[inicio + 3][0], tokens[inicio + 4][0])
