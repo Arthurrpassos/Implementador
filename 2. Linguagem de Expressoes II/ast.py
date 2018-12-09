@@ -56,5 +56,4 @@ class If (Construcao):
     def __init__(self, var1, var2, var3, var4):
         if var1 == var2
            var3 = var4
-           print(var3)
-        elif
+           return Imprimir
