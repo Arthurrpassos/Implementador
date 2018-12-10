@@ -53,13 +53,12 @@ class Imprimir (Construcao):
         print(tabela.get(self.var))
 
 class Se (Construcao):
-    def __init__(self, var1, var2, var3, var4):
+    def __init__(self, var1, var2, var3):
         self.var1 = var1
         self.var2 = var2
         self.var3 = var3
-        self.var4 = var4
 
     def interpretar(self):
-        if self.se var1 == var2
-            var3 = var4
+        if self.se var1 == var2:
+            var2 = var3
         return Imprimir
