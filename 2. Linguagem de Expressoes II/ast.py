@@ -60,8 +60,8 @@ class Se (Construcao):
         self.se = se
 
     def interpretar(self):
-        if self.se == int(self.var1) == int(self.var2):
-            int(self.var2) = int(self.var3)
+        if self.se == self.var1 == self.var2:
+            self.var2 = self.var3
             return Imprimir
-        elif self.se == int(self.var1) != int(self.var2):
+        elif self.se == self.var1 != self.var2:
             print("As variáveis possuem valores diferentes!")
