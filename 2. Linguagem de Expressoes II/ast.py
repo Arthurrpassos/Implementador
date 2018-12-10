@@ -59,7 +59,7 @@ class Se (Construcao):
         self.var3 = var3
 
     def interpretar(self):
-        if self.se int(self.var1) == int(self.var2):
+        if self.se == int(self.var1) == int(self.var2):
             int(self.var2) = int(self.var3)
             return Imprimir
         elif self.se int(self.var1) != int(self.var2):
