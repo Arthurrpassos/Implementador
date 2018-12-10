@@ -60,6 +60,6 @@ class Se (Construcao):
         self.var4 = var4
 
     def interpretar(self):
-        self.se var1 == var2
-           var3 = var4
-           return Imprimir
+        if self.se var1 == var2
+            var3 = var4
+        return Imprimir
