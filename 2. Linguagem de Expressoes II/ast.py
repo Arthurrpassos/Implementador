@@ -62,5 +62,5 @@ class Se (Construcao):
         if self.se == int(self.var1) == int(self.var2):
             int(self.var2) = int(self.var3)
             return Imprimir
-        elif self.se int(self.var1) != int(self.var2):
+        elif self.se == int(self.var1) != int(self.var2):
             print("As variáveis possuem valores diferentes!")
