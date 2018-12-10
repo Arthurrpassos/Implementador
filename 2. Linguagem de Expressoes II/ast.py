@@ -63,4 +63,4 @@ class Se (Construcao):
             var2 = var3
             return Imprimir
         elif self.se var1 != var2:
-            print("As variáveis são diferentes!")
+            print("As variáveis possuem valores diferentes!")
