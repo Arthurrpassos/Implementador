@@ -7,7 +7,7 @@ tokens_da_linguagem = [
     (r'[i][m][p][r][i][m][i][r]', 'IMPRIMIR'),
     (r'[A-Za-z]+', 'VAR'),
     (r'[0-9]+', 'DIGITO'),
-    (r'[\==\<\>\!=]', 'OPERADORCOMP'),
+    (r'[\#\<\>\!]', 'OPERADORCOMP'),
     (r'[=]', 'IGUAL'),
     (r'[\+\-\*\/]', 'OPERADOR'),
     (r'[;]', 'SEPARADOR'),
