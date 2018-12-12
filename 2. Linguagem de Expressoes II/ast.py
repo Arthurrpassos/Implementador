@@ -71,16 +71,13 @@ class Se (Construcao):
             self.var1 != self.var2
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
-            print("As variáveis possuem valores diferentes!")
 
         elif self.operadorcomp == '<':
             self.var1 < self.var2
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
-            print(" a < b")
 
         elif self.operadorcomp == '>':
             self.var1 > self.var2
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
-            print("a > b")
