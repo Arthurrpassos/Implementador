@@ -1,6 +1,6 @@
 import sys
 from lexer import analise_lexica, tokens_da_linguagem
-from parser import analise_sintatica
+from myparser import analise_sintatica
 from simbolos import tabela, adicionar, ler
 from ast import *
 
