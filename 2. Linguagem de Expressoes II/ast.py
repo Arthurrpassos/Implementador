@@ -69,15 +69,18 @@ class Se (Construcao):
 
         elif self.operadorcomp == '!=':
             self.var1 != self.var2
+            self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
 
         elif self.operadorcomp == '<':
             self.var1 < self.var2
+            self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
 
         elif self.operadorcomp == '>':
             self.var1 > self.var2
+            self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
