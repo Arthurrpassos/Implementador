@@ -9,6 +9,7 @@ tokens_da_linguagem = [
     (r'[0-9]+', 'DIGITO'),
     (r'[=]', 'IGUAL'),
     (r'[\+\-\*\/]', 'OPERADOR'),
+    (r'[\==\<\>\!=]', 'OPERADORCOMP')
     (r'[;]', 'SEPARADOR'),
     (r'[(]', 'ABRIR'),
     (r'[)]', 'FECHAR'),

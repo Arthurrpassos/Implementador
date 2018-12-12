@@ -41,5 +41,5 @@ for construcao in programa:
 
     if construcao[1] == "Se":
         inicio = int(construcao[0].split('-')[0])
-        se = Se(tokens[inicio][0], tokens[inicio + 2][0], tokens[inicio + 3][0])
+        se = Se(tokens[inicio][0], tokens[inicio + 2][0], tokens[inicio + 3][0], tokens[inicio + 4][0])
         se.interpretar()

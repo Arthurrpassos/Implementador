@@ -53,15 +53,34 @@ class Imprimir (Construcao):
         print(tabela.get(self.var))
 
 class Se (Construcao):
-    def __init__(self, var1, var2, var3, se):
+    def __init__(self, var1, var2, var3, var4, operadorcomp):
         self.var1 = var1
         self.var2 = var2
         self.var3 = var3
-        self.se = se
+        self.var4 = var4
+        self.operadorcomp = operadorcomp
 
     def interpretar(self):
-        if self.se == self.var1 == self.var2:
-            self.var2 = self.var3
-            return Imprimir
-        elif self.se == self.var1 != self.var2:
+        if self.operadorcomp == '==':
+            self.var1 == self.var2
+            self.var3 = self.var4
+            att = AtrSimples(self.var3, self.var4)
+            att.interpretar()
+
+        elif self.operadorcomp == '!=':
+            self.var1 != self.var2
+            att = AtrSimples(self.var3, self.var4)
+            att.interpretar()
             print("As variáveis possuem valores diferentes!")
+
+        elif self.operadorcomp == '<':
+            self.var1 < self.var2
+            att = AtrSimples(self.var3, self.var4)
+            att.interpretar()
+            print(" a < b")
+
+        elif self.operadorcomp == '>':
+            self.var1 > self.var2
+            att = AtrSimples(self.var3, self.var4)
+            att.interpretar()
+            print("a > b")
