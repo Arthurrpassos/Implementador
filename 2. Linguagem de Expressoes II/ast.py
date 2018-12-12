@@ -61,7 +61,7 @@ class Se (Construcao):
         self.operadorcomp = operadorcomp
 
     def interpretar(self):
-        if self.operadorcomp == '#':
+        if self.operadorcomp == '@':
             self.var1 == self.var2
             self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
