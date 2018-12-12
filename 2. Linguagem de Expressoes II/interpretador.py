@@ -4,7 +4,7 @@ from parser import analise_sintatica
 from simbolos import tabela, adicionar, ler
 from ast import *
 
-code = 'A = 10; B = 2; If(A==B) B=10; imprimir(B);'
+code = 'A = 10; B = 2; se (A==B) B=10; imprimir(B);'
 tokens = analise_lexica(code, tokens_da_linguagem)
 
 print('\n\n\n')
