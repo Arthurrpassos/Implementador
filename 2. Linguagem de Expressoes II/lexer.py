@@ -9,11 +9,11 @@ tokens_da_linguagem = [
     (r'[0-9]+', 'DIGITO'),
     (r'[=]', 'IGUAL'),
     (r'[\+\-\*\/]', 'OPERADOR'),
-    (r'[\==\<\>\!=]', 'OPERADORCOMP')
+    (r'[\==\<\>\!=]', 'OPERADORCOMP'),
     (r'[;]', 'SEPARADOR'),
     (r'[(]', 'ABRIR'),
     (r'[)]', 'FECHAR'),
-    (r'[s][e]', 'SE')
+    (r'[s][e]', 'SE'),
 ]
 
 def analise_lexica(programa, tokens_da_linguagem):
