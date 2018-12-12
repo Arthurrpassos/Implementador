@@ -66,21 +66,25 @@ class Se (Construcao):
             self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
+            print("a == b")
 
         elif self.operadorcomp == '!=':
             self.var1 != self.var2
             self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
+            print("a != b")
 
         elif self.operadorcomp == '<':
             self.var1 < self.var2
             self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
+            print(" a < b")
 
         elif self.operadorcomp == '>':
             self.var1 > self.var2
             self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
+            print("a > b")
