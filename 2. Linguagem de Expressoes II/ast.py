@@ -63,24 +63,24 @@ class Se (Construcao):
     def interpretar(self):
         if self.operadorcomp == '@':
             self.var1 == self.var2
-            #self.var3 = self.var4
+            self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
 
         elif self.operadorcomp == '!':
             self.var1 != self.var2
-            #self.var3 = self.var4
+            self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
 
         elif self.operadorcomp == '<':
             self.var1 < self.var2
-            #self.var3 = self.var4
+            self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
 
         elif self.operadorcomp == '>':
             self.var1 > self.var2
-            #self.var3 = self.var4
+            self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
