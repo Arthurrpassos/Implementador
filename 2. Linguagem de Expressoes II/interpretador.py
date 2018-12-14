@@ -37,10 +37,13 @@ for construcao in programa:
     if construcao[1] == "Se":
         inicio = int(construcao[0].split('-')[0])
 
-        print(tokens[inicio + 3][0])
+        print(tokens[inicio ][0])
         print(tokens[inicio + 2][0])
+        print(tokens[inicio + 3][0])
         print(tokens[inicio + 4][0])
+        print(tokens[inicio + 5][0])
         print(tokens[inicio + 6][0])
+        print(tokens[inicio + 7][0])
         print(tokens[inicio + 8][0])
 
         se = Se(tokens[inicio][0],
