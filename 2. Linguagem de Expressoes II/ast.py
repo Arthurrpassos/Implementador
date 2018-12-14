@@ -46,7 +46,7 @@ class Atr (Construcao):
             return int(self.var2) / int(self.var3)
 
 class Se (Construcao):
-    def __init__(self, var1, var2, var3, var4, var5, var6, operadorcomp):
+    def __init__(self, var1, var2, var3, var4, var5, operadorcomp):
         self.var1 = var1
         self.var2 = var2
         self.var3 = var3
