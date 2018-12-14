@@ -82,7 +82,7 @@ class Se (Construcao):
             print('chegou')
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
-        else:
+        
 
     # def result(self):
     #     aux2 = tabela.get(self.var2)
