@@ -38,6 +38,7 @@ for construcao in programa:
         inicio = int(construcao[0].split('-')[0])
 
         print(tokens[inicio ][0])
+        print(tokens[inicio + 1][0])
         print(tokens[inicio + 2][0])
         print(tokens[inicio + 3][0])
         print(tokens[inicio + 4][0])
