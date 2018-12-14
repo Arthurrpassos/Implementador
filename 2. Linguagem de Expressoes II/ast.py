@@ -45,13 +45,6 @@ class Atr (Construcao):
         elif self.operador == '/':
             return int(self.var2) / int(self.var3)
 
-class Imprimir (Construcao):
-    def __init__(self, var):
-        self.var = var
-
-    def interpretar(self):
-        print(tabela.get(self.var))
-
 class Se (Construcao):
     def __init__(self, var1, var2, var3, var4, operadorcomp):
         self.var1 = var1
@@ -84,3 +77,10 @@ class Se (Construcao):
             self.var3 = self.var4
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
+
+class Imprimir (Construcao):
+    def __init__(self, var):
+        self.var = var
+
+    def interpretar(self):
+        print(tabela.get(self.var))

@@ -4,6 +4,7 @@ import re
 tokens_da_linguagem = [
     (r'[ \t\n]+', None),
     (r'#[^\n]*', None),
+    (r'[s][e]', 'SE'),
     (r'[i][m][p][r][i][m][i][r]', 'IMPRIMIR'),
     (r'[A-Za-z]+', 'VAR'),
     (r'[0-9]+', 'DIGITO'),
@@ -13,7 +14,7 @@ tokens_da_linguagem = [
     (r'[;]', 'SEPARADOR'),
     (r'[(]', 'ABRIR'),
     (r'[)]', 'FECHAR'),
-    (r'[s][e]', 'SE'),
+
 ]
 
 def analise_lexica(programa, tokens_da_linguagem):

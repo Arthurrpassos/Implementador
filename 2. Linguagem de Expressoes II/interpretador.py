@@ -32,14 +32,19 @@ for construcao in programa:
             tokens[inicio + 4][0]
         )
         atr.interpretar()
+
+    if construcao[1] == "Se":
+        inicio = int(construcao[0].split('-')[0])
+        se = Se(tokens[inicio][0],
+                tokens[inicio + 2][0],
+                tokens[inicio + 3][0],
+                tokens[inicio + 4][0])
+        se.interpretar()
+
+
     if construcao[1] == 'Imprimir':
         inicio = int(construcao[0].split('-')[0])
         imprimir = Imprimir(
             tokens[inicio + 2][0]
         )
         imprimir.interpretar()
-
-    if construcao[1] == "Se":
-        inicio = int(construcao[0].split('-')[0])
-        se = Se(tokens[inicio][0], tokens[inicio + 2][0], tokens[inicio + 3][0], tokens[inicio + 4][0])
-        se.interpretar()
