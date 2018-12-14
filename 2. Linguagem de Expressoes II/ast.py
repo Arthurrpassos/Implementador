@@ -54,7 +54,7 @@ class Se (Construcao):
         self.operadorcomp = operadorcomp
 
     def interpretar(self):
-        print('\\'self.operadorcomp'\\'\n)
+        print(self.operadorcomp,"\n")
         if self.operadorcomp == '@':
             self.var1 == self.var2
             self.var3 = self.var4
