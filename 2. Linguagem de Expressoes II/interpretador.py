@@ -49,7 +49,6 @@ for construcao in programa:
                 tokens[inicio + 4][0],
                 tokens[inicio + 6][0],
                 tokens[inicio + 8][0],
-                tokens[inicio + 9][0],
         )
         se.interpretar()
 
