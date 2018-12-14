@@ -10,6 +10,8 @@ construcoes = [
     (['VAR', 'IGUAL', 'DIGITO', 'OPERADOR', 'VAR', 'SEPARADOR'], 'Atr'),
     (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'VAR', 'FECHAR', 'VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'Se'),
     (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'VAR', 'FECHAR', 'VAR', 'IGUAL', 'DIGITO', 'SEPARADOR'], 'Se'),
+    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'DIGITO', 'FECHAR', 'VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'Se')
+    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'DIGITO', 'FECHAR', 'VAR', 'IGUAL', 'DIGITO', 'SEPARADOR'], 'Se'),
     (['IMPRIMIR', 'ABRIR', 'VAR', 'FECHAR', 'SEPARADOR'], 'Imprimir'),
 
 ]
