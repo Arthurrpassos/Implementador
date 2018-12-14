@@ -57,34 +57,34 @@ class Se (Construcao):
         print(self.operadorcomp,"\n")
         if self.operadorcomp == '@':
             self.var1 == self.var2
-            self.var3 = self.var4
-            print('chegou')
-            att = AtrSimples(self.var3, self.var4)
-            att.interpretar()
+            # self.var3 = self.var4
+            # print('chegou')
+            # att = AtrSimples(self.var3, self.var4)
+            # att.interpretar()
 
         elif self.operadorcomp == '!':
             self.var1 != self.var2
-            self.var3 = self.var4
-            print('chegou')
-            att = AtrSimples(self.var3, self.var4)
-            att.interpretar()
+            # self.var3 = self.var4
+            # print('chegou')
+            # att = AtrSimples(self.var3, self.var4)
+            # att.interpretar()
 
         elif self.operadorcomp == '<':
             self.var1 < self.var2
-            self.var3 = self.var4
-            print('chegou')
-            att = AtrSimples(self.var3, self.var4)
-            att.interpretar()
+            # self.var3 = self.var4
+            # print('chegou')
+            # att = AtrSimples(self.var3, self.var4)
+            # att.interpretar()
 
         elif self.operadorcomp == '>':
             self.var1 > self.var2
-            self.var3 = self.var4
-            print('chegou')
-            att = AtrSimples(self.var3, self.var4)
-            att.interpretar()
+            # self.var3 = self.var4
+            # print('chegou')
+            # att = AtrSimples(self.var3, self.var4)
+            # att.interpretar()
 
     def result(self):
-        self.var2 = self.var4
+        self.var2 = self.var3
         print("chegou {}".format(self.var2))
 
 class Imprimir (Construcao):
