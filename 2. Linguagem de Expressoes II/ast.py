@@ -76,12 +76,13 @@ class Se (Construcao):
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
 
-        else self.operadorcomp == '>':
+        elif self.operadorcomp == '>':
             self.var1 > self.var2
             self.var3 = self.var4
             print('chegou')
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
+        else:
 
     # def result(self):
     #     aux2 = tabela.get(self.var2)
