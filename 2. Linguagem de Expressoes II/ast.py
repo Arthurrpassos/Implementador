@@ -85,6 +85,7 @@ class Se (Construcao):
 
     def result(self):
         self.var2 = self.var4
+        print("chegou {}".format(self.var2))
 
 class Imprimir (Construcao):
     def __init__(self, var):
