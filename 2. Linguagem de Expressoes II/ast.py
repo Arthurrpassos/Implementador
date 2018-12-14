@@ -53,7 +53,7 @@ class Se (Construcao):
         self.var4 = var4
         self.operadorcomp = operadorcomp
 
-    def interpretar(self):
+    def findopr(self):
         print(self.operadorcomp,"\n")
         if self.operadorcomp == '@':
             self.var1 == self.var2
@@ -82,6 +82,9 @@ class Se (Construcao):
             print('chegou')
             att = AtrSimples(self.var3, self.var4)
             att.interpretar()
+
+    def result(self):
+        self.var2 = self.var4
 
 class Imprimir (Construcao):
     def __init__(self, var):
