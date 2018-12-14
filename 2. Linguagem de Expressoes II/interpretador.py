@@ -23,6 +23,7 @@ for construcao in programa:
         inicio = int(construcao[0].split('-')[0])
         atrSimples = AtrSimples(tokens[inicio][0], tokens[inicio + 2][0])
         atrSimples.interpretar()
+
     if construcao[1] == 'Atr':
         inicio = int(construcao[0].split('-')[0])
         atr = Atr(
@@ -48,6 +49,7 @@ for construcao in programa:
                 tokens[inicio + 4][0]),
                 tokens[inicio + 6][0]),
                 tokens[inicio + 8][0]),
+        )
         se.interpretar()
 
 
