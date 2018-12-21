@@ -2,16 +2,15 @@ import sys
 from lexer import analise_lexica, tokens_da_linguagem
 
 construcoes = [
+    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'VAR', 'FECHAR', 'VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'Se'),
+    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'VAR', 'FECHAR', 'VAR', 'IGUAL', 'DIGITO', 'SEPARADOR'], 'Se'),
+    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'DIGITO', 'FECHAR', 'VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'Se'),
     (['VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'AtrSimples'),
     (['VAR', 'IGUAL', 'DIGITO', 'SEPARADOR'], 'AtrSimples'),
     (['VAR', 'IGUAL', 'VAR', 'OPERADOR', 'VAR', 'SEPARADOR'], 'Atr'),
     (['VAR', 'IGUAL', 'DIGITO', 'OPERADOR', 'DIGITO', 'SEPARADOR'], 'Atr'),
     (['VAR', 'IGUAL', 'VAR', 'OPERADOR', 'DIGITO', 'SEPARADOR'], 'Atr'),
     (['VAR', 'IGUAL', 'DIGITO', 'OPERADOR', 'VAR', 'SEPARADOR'], 'Atr'),
-    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'VAR', 'FECHAR', 'VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'Se'),
-    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'VAR', 'FECHAR', 'VAR', 'IGUAL', 'DIGITO', 'SEPARADOR'], 'Se'),
-    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'DIGITO', 'FECHAR', 'VAR', 'IGUAL', 'VAR', 'SEPARADOR'], 'Se'),
-    (['SE', 'ABRIR', 'VAR', 'OPERADORCOMP', 'DIGITO', 'FECHAR', 'VAR', 'IGUAL', 'DIGITO', 'SEPARADOR'], 'Se'),
     (['IMPRIMIR', 'ABRIR', 'VAR', 'FECHAR', 'SEPARADOR'], 'Imprimir'),
 
 ]
