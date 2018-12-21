@@ -52,7 +52,7 @@ for construcao in programa:
                 tokens[inicio + 2][0],
                 tokens[inicio + 3][0],
                 tokens[inicio + 4][0],
-                tokens[inicio + 6][0],
+                tokens[inicio + 4][0],
                 tokens[inicio + 8][0],
         )
         se.interpretar()
