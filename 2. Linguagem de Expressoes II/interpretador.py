@@ -38,6 +38,7 @@ for construcao in programa:
         inicio = int(construcao[0].split('-')[0])
 
         print(tokens[inicio ][0])
+        print(tokens[inicio + 1][0])
         print(tokens[inicio + 2][0])
         print(tokens[inicio + 3][0])
         print(tokens[inicio + 4][0])
@@ -45,6 +46,7 @@ for construcao in programa:
         print(tokens[inicio + 6][0])
         print(tokens[inicio + 7][0])
         print(tokens[inicio + 8][0])
+        print('resultado')
 
         se = Se(tokens[inicio][0],
                 tokens[inicio + 2][0],
